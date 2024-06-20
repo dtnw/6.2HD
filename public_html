@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+    <title>Endometriosis</title>
+</head>
+
+<body>
+    <!-- Replaced the previous navigation bar as per requirements which also better fit the colour scheme -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shortcuts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-link" href="#definition">Definition</a></li>
+                            <li><a class="dropdown-item nav-link" href="#trivia">Trivia</a></li>
+                            <li><a class="dropdown-item nav-link" href="#mystory">My Story</a></li>
+                            <li><a class="dropdown-item nav-link" href="#tldr">TLDR</a></li>
+                            <li><a class="dropdown-item nav-link" href="#factcheck">Fact Check</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sanitary Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://moxie.com.au/">Tampons</a></li>
+                            <li><a class="dropdown-item" href="https://thetomco.com/au/">Pads</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://lunette.com.au/">Diva Cups</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.endographics.org/english">Learn More</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Consultation</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Adjusted every single row a/o container so that there is some uniformity in the padding and margins-->
+    <div class="row">
+        <div class="p-5 bg-danger text-white text-center"> <!--Centered this text to the middle to fit the carousel-->
+            <h1>Endometriosis</h1>
+            <p>Not just a simple period pain.</p>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: brown;">
+        <div class="container-fluid" style="width: 70%;">
+            <!-- Put it in a container and width restriction to maintain the size so it doesn't change when fading-->
+            <div id="newCarousel" class="carousel slide carousel-fade mx-auto"> <!-- mx-auto to align it to centre -->
+                <!-- Page Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <!--Inside the Carousel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pic1.png" class="d-block w-100" alt="..." style="width:fit-content">
+                        <!--Captions-->
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>This is the Uterus!</h5>
+                            <p>Ever wonder how it feels like to have cramps?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic2.png" class="d-block w-100" alt="..." style="width:fit-content">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>It's not great</h5>
+                            <p>As the British would say, bloody hell...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pic3.png" class="d-block w-100" alt="..." style="width:fit-content">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>That's how periods come to hurt</h5>
+                            <p>Endometriosis is like that... but x10 worse.</p>
+                        </div>
+                    </div>
+                    <!-- Next/Previous buttons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#newCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span>Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#newCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span>Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="definition" class="container-fluid bg-danger-subtle mx-auto">
+            <div class="m-5">
+                <div class="text-dark text-center"> <!--Centered text to look nice with centered carousel-->
+                    <h4>Throwing up and blacking out on your periods?</h4>
+                    <p> It may be time to consider if you might have endometriosis</p>
+                </div>
+                <br>
+                <div id="definition" class="p-5 mb-8 bg-light rounded-3">
+                    <div class="container-fluid py-1">
+                        <!--Very proud of this section,
+                            made use of different typography commands to make it look like a dictionary entree-->
+                        <h1><strong>endometriosis</strong></h1>
+                        <code>[ en-doh-mee-tree-oh-sis ]</code>
+                        <br><small><i>noun Pathology.</i></small>
+                        <br>
+                        <br>
+                        <p>
+                            Abnormal tissue growth that can cause <span class="text-danger-emphasis">
+                                debilitating pain, heavy bleeding, anxiety, depression, infertility</span> and many
+                            other complications. There is no known cure.
+                        </p>
+                        <p>
+                            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-controls="collapseExample">
+                                Read more
+                            </button>
+                            <!--Also very proud of this "Read more" button, now people may choose to read more if they are interested
+                            and they won't be turned off by huge chunks of text-->
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card-body card-text">
+                                <p>
+                                    This gynaecological condition occurs when uterus lining tissues grow outside of it,
+                                    especially in other pelvic organs such as ovaries.
+
+                                    The exact cause is not yet fully understood, but it is believed to
+                                    be related to hormonal imbalances and genetic factors.
+
+                                    The only definitive diagnosis is laparoscopic surgery, as non-invasive methods
+                                    are inconclusive.
+                                </p>
+                                <p>
+                                    For short-term pain alleviation and reduction of the growth of endometrial tissues,
+                                    pain medication and hormonal therapies are often used.
+
+                                    However, excision surgery is necessary in order to attempt to sever the roots.
+                                    Even then, complete remission is not guaranteed as it may reoccur.
+                                </p>
+                                <!--Spent lots of time copywriting this so that it looks digestible on small and large screens-->
+                                <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    Oh shoot that sounds a lot like me...
+                                    <!---Incorporated this offcanvas pop up so that it's noticeable and impactful-->
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---Love this button!! Got rid of the awkward barren looking link from before and placed it neatly within a button-->
+            <div class="text-end m-3">
+                <button class="btn btn-outline-light" type="button">
+                    <a href="#" class="scroll-top text-light-emphasis text-decoration-none">Back to top</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title text-bg-danger p-4 container text-center" id="offcanvasExampleLabel">
+                Do I have endometriosis?</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body p-3 m-4">
+            <div>
+                <p>Endometriosis can manifest in many different symptoms in verying levels of severity.
+                    If any of the information in this website resonate with you or anyone dear to you,
+                    we recommend seeking medical attention.
+                </p>
+                <p>
+                    Remember, CT Scans and MRI may detect some traces of endometrial tissue but not others.
+                    Misdiagnosis is pervasive in women's health, so never hesitate to ask for a second opinion.
+
+                    By working closely with your healthcare providers,
+                    it is possible to maintain a good quality of life through personalized care and support.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!---Replaced the thumbnail images with cards! Now text can be included to give a little more context-->
+    <div class="row">
+        <div class="container-fluid" style="background-color:lavender;">
+            <div id="trivia" class="container my-5">
+                <div class="row row-cols-1 row-cols-md-3 g-4 m-1">
+                    <!--Made sure they don't use up too much backgroun when in small screens whilte still having breathing space-->
+                    <div class="col">
+                        <div class="card h-100 border-danger">
+                            <img src="endo11.png" class="card-img-top" alt="1 in 10 women have endo">
+                            <div class="card-body">
+                                <h5 class="card-title">More than you think</h5>
+                                <p class="card-text"><small class="text-body-secondary"> Experts believe that the actual
+                                        number
+                                        is believed to be significantly higher due to underreporting, misdiagnosis, and
+                                        a
+                                        lack of
+                                        non-invasive diagnosis methods.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-danger">
+                            <img src="endo2-2.png" class="card-img-top" alt="Takes average 7 years for a diagnosis">
+                            <div class="card-body">
+                                <h5 class="card-title">You never know</h5>
+                                <p class="card-text"><small class="text-body-secondary"> The lack of research in women's
+                                        health
+                                        in this area results in taking
+                                        potentially taking 7.5 to 10 years for a patient to be properly diagnosed.
+                                    </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-danger">
+                            <img src="endo3.png" class="card-img-top" alt="There is no cure yet">
+                            <div class="card-body">
+                                <h5 class="card-title">Is there hope?</h5>
+                                <p class="card-text"><small class="text-body-secondary">The highest success rate of
+                                        recovey is
+                                        from laparoscopy, an invasion
+                                        surgery that cuts the cells from the root.
+                                        However, some accounts have reported relapse despite multiple surgeries.</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Had to proofread many, many times due to things changing around-->
+                </div>
+            </div>
+            <div class="text-end m-3">
+                <button class="btn btn-outline-light" type="button">
+                    <a href="#" class="scroll-top text-light-emphasis text-decoration-none">Back to top</a>
+                </button>
+            </div>
+            <!--Made sure each button is exactly at the same area for easy reference-->
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="container-fluid" style="background-color:lightpink">
+            <div id="mystory" class="row" style="background-color:lightpink">
+                <div class="col-sm-4 col-12 p-5 d-flex align-items-center ">
+                    <img src="endo4.png" class="img-fluid img-thumbnail rounded-circle p-3 " alt="portraiture">
+                </div>
+                <div class="col-sm-8 col-12 p-5" style="background-color:lavenderblush">
+                    <h1 class="my-3">This is my story</h1>
+                    <p> When I was 14, I vomitted when it was the time of the month, the color was <span
+                            class="text-danger">red</span> (but I think the colour came from the grapes).</p>
+                    <p>When I was 16, I fainted for the first time after explosive diarrhea (sorry, mom).</p>
+                    <p>When I was 18, I collapsed in public after a competition, everyone was almost as white as I was
+                        (we
+                        won though, all good).</p>
+                    <p>When I was 21, I was in so much pain I could not talk or walk, I thought I was going to die.</p>
+                    <p>When I was 23, I went to see the doctor, they told me <i>"some periods are just more
+                            painful"</i>.</p>
+                    <p>When I was 24, I had a concussion and blacked out before I could call the ambulance.</p>
+                    <p>When I was 25, I called the ambulance.</p>
+                    <p>When I was 26, I was prescribed with pills, had ultra sounds, MRI scans, and inserted a mirena
+                        coil.
+                    </p>
+                    <p>I am 27 now, and it still hurts.</p>
+                </div>
+            </div>
+            <div class="text-end m-3">
+                <button class="btn btn-outline-light" type="button">
+                    <a href="#" class="scroll-top text-light-emphasis text-decoration-none">Back to top</a>
+                </button>
+            </div>
+            <!---Very happy with the placement of the button allowing an extra visual pop-->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid" style="background-color:lavender">
+            <div id="tldr" class="row">
+                <div class="col-sm-8 col-12 p-5" style="background-color:lavenderblush">
+                    <h1 class="my-3">This is Lily's story</h1>
+                    <p class="text-body-emphasis"> It's a TLDR in <a
+                            href="https://www.thelily.com/endometriosis-is-so-much-worse-than-a-bad-period/">comic
+                            form!</a></p>
+                    <p> It was like someone drew my life without me knowing, I had 5 out of 7 of her symptoms.
+                        It was... something else to find a word to describe why I crumble every single month.
+                        And to know I had hope of living a normal life - even if it it may involve invasive surgery.
+                        I wish more people knew about it, and future little girls dont have to live in fear the way many
+                        of us
+                        did.
+                    </p>
+                </div>
+                <!--Changed the shape to the same one as other row for uniformity-->
+                <div class="col-sm-4 col-12 p-5 d-flex align-items-center " style="background-color:lightpink;">
+                    <img src="endo6.png" class="img-fluid img-thumbnail rounded-circle" alt="Lily's story">
+                </div>
+            </div>
+            <div class="text-end m-3">
+                <button class="btn btn-outline-light" type="button">
+                    <a href="#" class="scroll-top text-light-emphasis text-decoration-none">Back to top</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!---Changed the colours of the table to make it fit the theme more-->
+    <div class="row">
+        <div class="container-fluid" style="background-color:lavender">
+            <div id="factcheck" class="p-5 m-4 rounded-3">
+                <table class="table table-hover table-borderless mx-auto" style="width: fit-content">
+                    <thead class="table-light text-center">
+                        <th colspan="2">
+                            Myths or Facts?
+                        </th>
+                        <th scope="col">False</th>
+                        <th scope="col">True</th>
+                    </thead>
+                    <tbody>
+                        <tr class="table-danger">
+                            <th scope="row">1</th>
+                            <td>Childbirth or hysterectomy is a cure</td>
+                            <td class="text-center">&#x00D7</td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">2</th>
+                            <td>There is no cure</td>
+                            <td></td>
+                            <td class=" text-center">&#10003</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">3</th>
+                            <td>Missing school/work due to pain is normal</td>
+                            <td class="text-center">&#x00D7</td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">4</th>
+                            <td>It is not normal - see a doctor immediately</td>
+                            <td></td>
+                            <td class="text-center">&#10003</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">5</th>
+                            <td>The level of pain relates to the stage of the disease</td>
+                            <td class="text-center">&#x00D7</td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">6</th>
+                            <td>Pain does not always correlate with the severity of the disease</td>
+                            <td></td>
+                            <td class="text-center">&#10003</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-end m-3">
+                <button class="btn btn-outline-light" type="button">
+                    <a href="#" class="scroll-top text-light-emphasis text-decoration-none">Back to top</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-5 mb-4 container-fluid text-bg-dark text-center">
+        Copyright &copy; 2023 All Rights Reserved
+        <br>
+        <i>A total of 20 hours have been accummulated on this website &#127926;</i></small>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
