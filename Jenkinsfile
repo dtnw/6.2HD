@@ -1,9 +1,13 @@
 pipeline{
     agent any
+        environment {
+        // Define a variable for the application URL, adjust the port if necessary
+        APP_URL = "http://localhost:5173"
+    }
     stages{
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/dtnw/task6.2hd.git'
+                git branch: 'main', url: 'https://github.com/dtnw/6.2HD.git'
             }
         }
         stage('Build'){
