@@ -43,9 +43,32 @@ pipeline{
         
         stage('Deploy'){
             steps{
-                    echo "Deploy the application to a production server on AWS EC2 instance."
-                    ftpPublisher alwaysPublishFromMaster: false, continueOnError: false, failOnError: false,masterNodeName: "main", paramPublish: null, publishers: [[configName: "website", transfers: [[asciiMode: false, cleanRemote: false, excludes: "", flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: "[, ]+", remoteDirectory: "sit753-task6.2hd.000webhost.com", remoteDirectorySDF: false, removePrefix: "", sourceFiles: "my-project/dist/*/*"]], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false]]
-                    }
+                    echo "Deploy the application to 000webhost"
+                    ftpPublisher alwaysPublishFromMaster: false,
+                    continueOnError: false,
+                    failOnError: false,
+                    masterNodeName: "main",
+                    paramPublish: null,
+                    publishers: [[
+                        configName: "website",
+                        transfers: [[
+                            asciiMode: false,
+                            cleanRemote: false,
+                            excludes: "",
+                            flatten: false,
+                            makeEmptyDirs: false,
+                            noDefaultExcludes: false,
+                            patternSeparator: "[, ]+",
+                            remoteDirectory: "sit753-task6.2hd.000webhost.com",
+                            remoteDirectorySDF: false,
+                            removePrefix: "",
+                            sourceFiles: "my-project/dist/*/*"
+                        ]],
+                        usePromotionTimestamp: false,
+                        useWorkspaceInPromotion: false,
+                        verbose: false
+                    ]]
+                }
         }
     }
 }
