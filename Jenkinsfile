@@ -22,17 +22,23 @@ pipeline{
         stage('Start Application') {
             steps {
                 script {
-                    // Start the Vue.js application in the background
-                    bat 'npm run dev'
-                    
-                    // Wait for the application to start
-                    retry(5) {
-                        sleep time: 10, unit: 'SECONDS'
-                        bat "curl --fail ${env.APP_URL} || exit 1"
+                    // Navigate to the project directory
+                    dir('my-project') {
+                        // Install dependencies
+                        bat 'npm install'
+                        
+                        // Start the Vue.js application in the background
+                        bat 'start /B npm run dev'
+                        
+                        // Wait for the application to start
+                        retry(5) {
+                            sleep time: 10, unit: 'SECONDS'
+                            bat "curl --fail ${env.APP_URL} || exit 1"
+                        }
                     }
                 }
             }
-        }
+            }
         stage('Unit and Integration Tests'){
             steps {
                 dir("test/seleniumtest/seleniumtest"){
