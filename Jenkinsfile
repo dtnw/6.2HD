@@ -62,7 +62,7 @@ pipeline{
                             remoteDirectory: "sit753-task6.2hd.000webhost.com",
                             remoteDirectorySDF: false,
                             removePrefix: "",
-                            sourceFiles: "my-project/dist/**/**"
+                            sourceFiles: "my-project/**/**"
                         ]],
                         usePromotionTimestamp: false,
                         useWorkspaceInPromotion: false,
