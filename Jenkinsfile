@@ -59,7 +59,7 @@ pipeline{
                             makeEmptyDirs: false,
                             noDefaultExcludes: false,
                             patternSeparator: "[, ]+",
-                            remoteDirectory: "/public_html/",
+                            remoteDirectory: "sit753-task6.2hd.000webhost.com",
                             remoteDirectorySDF: false,
                             removePrefix: "",
                             sourceFiles: "my-project/dist/*/*"
