@@ -23,7 +23,7 @@ public static class Script
             aboutLink.Click();
 
             // Wait for page to load
-            System.Threading.Thread.Sleep(7000);
+            System.Threading.Thread.Sleep(5000);
 
             // Click on the "Vue" link
             IWebElement vueLink = driver.FindElement(By.XPath("//a[contains(text(), 'Vue')]"));
