@@ -67,7 +67,7 @@ pipeline{
                             patternSeparator: "[, ]+",
                             remoteDirectory: "/public_html/",
                             remoteDirectorySDF: false,
-                            removePrefix: "",
+                            removePrefix: "my-project/dist",
                             sourceFiles: "my-project/dist/**"
                         ]],
                         usePromotionTimestamp: false,
