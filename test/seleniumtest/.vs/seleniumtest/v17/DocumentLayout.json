@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{D60A08E0-9174-4FE0-9577-5649D056985F}|seleniumtest\\seleniumtest.csproj|c:\\users\\derby\\documents\\github\\6.2hd\\test\\seleniumtest\\seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D60A08E0-9174-4FE0-9577-5649D056985F}|seleniumtest\\seleniumtest.csproj|solutionrelative:seleniumtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\derby\\AppData\\Local\\SourceServer\\67fe9367e7f8785e0c507f6d0393dab60a23034bea7a6c7b4f6561c2514698cc\\test\\seleniumtest\\seleniumtest\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +17,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\derby\\AppData\\Local\\SourceServer\\67fe9367e7f8785e0c507f6d0393dab60a23034bea7a6c7b4f6561c2514698cc\\test\\seleniumtest\\seleniumtest\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\67fe9367e7f8785e0c507f6d0393dab60a23034bea7a6c7b4f6561c2514698cc\\test\\seleniumtest\\seleniumtest\\Program.cs",
+              "ToolTip": "C:\\Users\\derby\\AppData\\Local\\SourceServer\\67fe9367e7f8785e0c507f6d0393dab60a23034bea7a6c7b4f6561c2514698cc\\test\\seleniumtest\\seleniumtest\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\67fe9367e7f8785e0c507f6d0393dab60a23034bea7a6c7b4f6561c2514698cc\\test\\seleniumtest\\seleniumtest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:46:21.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "seleniumtest\\Program.cs",
               "ToolTip": "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\Program.cs",
               "RelativeToolTip": "seleniumtest\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwFkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T11:09:31.644Z",
               "EditorCaption": ""

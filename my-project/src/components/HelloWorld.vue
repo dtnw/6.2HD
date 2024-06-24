@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">Finally!</h1>
     <h3>
-      This is the final project for SIT753 Task 6.2HD.
+      This is the final project for SIT753 Task 6.2HD DevOps Pipeline with Jenkins.
     </h3>
   </div>
 </template>

@@ -6,29 +6,17 @@ import CommunityIcon from './icons/IconCommunity.vue'
 </script>
 
 <template>
-  <AboutItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Student Information</template>
-    Name: Derby Teo Nyet Wen
-    <br>
-    Student ID: S221134621
-    <br>
-    Email: 
-    <a href= "mailto: S221134621@deakin.edu.au"> S221134621@deakin.edu.au </a>
-  </AboutItem>
 
   <AboutItem>
     <template #icon>
       <ToolingIcon />
     </template>
     
-    <template #heading>Documentation</template>
+    <template #heading>Build</template>
 
-    This website is created by
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue.js</a>.
-
+    To build my <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a> web application, I employ <a href="https://www.jenkins.io/" target="_blank" rel="noopener">Jenkins</a> 
+    piepeline to ensure a smooth and automated process.
+    The pipeline stages included cloning the repository from <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>, and then the build stage used npm to install dependencies and compile the Vue web app.
       </AboutItem>
 
   <AboutItem>
@@ -36,46 +24,24 @@ import CommunityIcon from './icons/IconCommunity.vue'
       <EcosystemIcon />
     </template>
     
-    <template #heading>Support Vue</template>
+    <template #heading>Test</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    For testing, I integrated <a href="https://www.selenium.dev/" target="_blank" rel="noopener">Selenium</a>
+    for automated testing into the pipeline.
+    It conducts end-to-end testing by mimicing user interactions with the application in a real browser environment.
+    These tests ensures that the application behvaes as expected under various scenarios.
+    These tests are set to run automatically after the build stage to provide immediate feedback on the stablity and functionality of the applicaiton.
       </AboutItem>
 
   <AboutItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Task 6.2 HD</template>
-    DevOps Pipeline with Jenkins
-    <br>
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
-  </AboutItem>
+    <template #heading>Deploy</template>
+    In this stage, I utilized FTP to transfer the built application to <a href="https://www.000webhost.com/" target="_blank" rel="noopener">000webhost.com</a>, a free hosting service.
+    I configured Jenkins to use the <a href="https://plugins.jenkins.io/publish-over-ftp/" target="_blank" rel="noopener">Publish over FTP</a> plugin to transfer the files from the `dist` directory into the `public_html` directory on the web host.
+    This deployment simulated a production setting that thoroughly tests and verifies the reliability and performance of the web app before going live.
+    This automated process ensures a consistent deployment that minimizes downtime and risk of errors.
 
-  <AboutItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
-    <template #heading>Unit Course Information</template>
-
-    Course Name:
-    <a href="https://www.deakin.edu.au/course/master-cyber-security-international" target="_blank" rel="noopener">Master of Cyber Security</a>.
-    <br>
-    Course Code: S734
-    <br>
-    Unit Code: 
-    <a href="https://www.deakin.edu.au/courses/unit?unit=SIT753" target="_blank" rel="noopener">Professional Practice in Information Technology</a>
-
-    
   </AboutItem>
 </template>

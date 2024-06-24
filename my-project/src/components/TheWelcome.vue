@@ -14,23 +14,21 @@ import SupportIcon from './icons/IconSupport.vue'
     <br>
     Student ID: S221134621
     <br>
-    Email: 
-    <a href= "mailto: S221134621@deakin.edu.au"> S221134621@deakin.edu.au </a>
+    Course Name:
+    <a href="https://www.deakin.edu.au/course/master-cyber-security-international" target="_blank" rel="noopener">Master of Cyber Security</a>.
+    <br>
+    Course Code: S734
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Unit Course Information</template>
-
-    Course Name:
-    <a href="https://www.deakin.edu.au/course/master-cyber-security-international" target="_blank" rel="noopener">Master of Cyber Security</a>.
+    <template #heading>Unit Information</template>
+    Unit Code: SIT753
     <br>
-    Course Code: S734
-    <br>
-    Unit Code: 
-    <a href="https://www.deakin.edu.au/courses/unit?unit=SIT753" target="_blank" rel="noopener">SIT753 Professional Practice in Information Technology</a>
+    Unit Name:
+    <a href="https://www.deakin.edu.au/courses/unit?unit=SIT753" target="_blank" rel="noopener">Professional Practice in Information Technology</a>
 
     
   </WelcomeItem>
