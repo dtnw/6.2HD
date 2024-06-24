@@ -23,7 +23,7 @@ pipeline{
             steps {
                 script {
                     // Start the Vue.js application in the background
-                    bat 'start /B npm run serve'
+                    bat 'npm run dev'
                     
                     // Wait for the application to start
                     retry(5) {
