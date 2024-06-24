@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\derby\\Documents\\GitHub\\task6.2hd\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj": {}
+    "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\derby\\Documents\\GitHub\\task6.2hd\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj": {
+    "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\derby\\Documents\\GitHub\\task6.2hd\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj",
+        "projectUniqueName": "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj",
         "projectName": "seleniumtest",
-        "projectPath": "C:\\Users\\derby\\Documents\\GitHub\\task6.2hd\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj",
+        "projectPath": "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\seleniumtest.csproj",
         "packagesPath": "C:\\Users\\derby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\derby\\Documents\\GitHub\\task6.2hd\\test\\seleniumtest\\seleniumtest\\obj\\",
+        "outputPath": "C:\\Users\\derby\\Documents\\GitHub\\6.2HD\\test\\seleniumtest\\seleniumtest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\derby\\AppData\\Roaming\\NuGet\\NuGet.Config",
